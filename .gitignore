@@ -1,0 +1,86 @@
+# editors
+*.swp
+*~
+*.code-workspace
+*.log 
+*.pickle
+
+# vscode
+.vscode/
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# build
+/build*/
+cpuapp/build*/
+cpuapp/.cache/
+cpunet/build*/
+cpunet/.cache/
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# SlickEdit workspace and project files are ignored by default because
+# typically they are considered to be developer-specific and not part of a
+# project.
+*.vpw*
+*.vpj
+
+# SlickEdit workspace history and tag files always contain user-specific
+# data so they should not be stored in a repository.
+*.vpwhistu
+*.vpwhist
+*.vtg
+
+# J-link debugging 
+*.jdebug*
+*ozone
+
